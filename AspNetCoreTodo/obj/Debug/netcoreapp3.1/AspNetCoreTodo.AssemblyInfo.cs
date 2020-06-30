@@ -11,7 +11,7 @@ using System;
 using System.Reflection;
 
 [assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap4")]
-[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("aspnet-AspNetCoreTodo-65D7D8B9-8500-4558-A247-279C03561FC1")]
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("aspnet-AspNetCoreTodo-2EDA940E-3397-4C0C-B060-EC7834003611")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("AspNetCoreTodo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]

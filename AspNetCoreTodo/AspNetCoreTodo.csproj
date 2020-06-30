@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <UserSecretsId>aspnet-AspNetCoreTodo-65D7D8B9-8500-4558-A247-279C03561FC1</UserSecretsId>
+    <UserSecretsId>aspnet-AspNetCoreTodo-2EDA940E-3397-4C0C-B060-EC7834003611</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
@@ -10,7 +10,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Humanizer" Version="2.8.26" />
     <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="3.1.5" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.5" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="3.1.5" />

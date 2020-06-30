@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Desktop\\AspNetCoreTodo\\AspNetCoreTodo\\AspNetCoreTodo.csproj": {}
+    "C:\\Users\\AlessandroSO\\Desktop\\aspnet\\ASPNET\\AspNetCoreTodo\\AspNetCoreTodo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Desktop\\AspNetCoreTodo\\AspNetCoreTodo\\AspNetCoreTodo.csproj": {
+    "C:\\Users\\AlessandroSO\\Desktop\\aspnet\\ASPNET\\AspNetCoreTodo\\AspNetCoreTodo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\AspNetCoreTodo\\AspNetCoreTodo\\AspNetCoreTodo.csproj",
+        "projectUniqueName": "C:\\Users\\AlessandroSO\\Desktop\\aspnet\\ASPNET\\AspNetCoreTodo\\AspNetCoreTodo.csproj",
         "projectName": "AspNetCoreTodo",
-        "projectPath": "C:\\Users\\User\\Desktop\\AspNetCoreTodo\\AspNetCoreTodo\\AspNetCoreTodo.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\AspNetCoreTodo\\AspNetCoreTodo\\obj\\",
+        "projectPath": "C:\\Users\\AlessandroSO\\Desktop\\aspnet\\ASPNET\\AspNetCoreTodo\\AspNetCoreTodo.csproj",
+        "packagesPath": "C:\\Users\\AlessandroSO\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AlessandroSO\\Desktop\\aspnet\\ASPNET\\AspNetCoreTodo\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\AlessandroSO\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -39,10 +36,6 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
-            "Humanizer": {
-              "target": "Package",
-              "version": "[2.8.26, )"
-            },
             "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
               "target": "Package",
               "version": "[3.1.5, )"
