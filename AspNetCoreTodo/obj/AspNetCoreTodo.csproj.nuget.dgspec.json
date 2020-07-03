@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\AlessandroSO\\Desktop\\aspnet\\ASPNET\\AspNetCoreTodo\\AspNetCoreTodo.csproj": {}
+    "C:\\Users\\AlessandroSO\\Desktop\\Asp\\ASPNET\\aspnetcoretodo\\AspNetCoreTodo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\AlessandroSO\\Desktop\\aspnet\\ASPNET\\AspNetCoreTodo\\AspNetCoreTodo.csproj": {
+    "C:\\Users\\AlessandroSO\\Desktop\\Asp\\ASPNET\\aspnetcoretodo\\AspNetCoreTodo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AlessandroSO\\Desktop\\aspnet\\ASPNET\\AspNetCoreTodo\\AspNetCoreTodo.csproj",
+        "projectUniqueName": "C:\\Users\\AlessandroSO\\Desktop\\Asp\\ASPNET\\aspnetcoretodo\\AspNetCoreTodo.csproj",
         "projectName": "AspNetCoreTodo",
-        "projectPath": "C:\\Users\\AlessandroSO\\Desktop\\aspnet\\ASPNET\\AspNetCoreTodo\\AspNetCoreTodo.csproj",
+        "projectPath": "C:\\Users\\AlessandroSO\\Desktop\\Asp\\ASPNET\\aspnetcoretodo\\AspNetCoreTodo.csproj",
         "packagesPath": "C:\\Users\\AlessandroSO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AlessandroSO\\Desktop\\aspnet\\ASPNET\\AspNetCoreTodo\\obj\\",
+        "outputPath": "C:\\Users\\AlessandroSO\\Desktop\\Asp\\ASPNET\\aspnetcoretodo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\AlessandroSO\\AppData\\Roaming\\NuGet\\NuGet.Config"

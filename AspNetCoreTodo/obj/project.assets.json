@@ -2785,11 +2785,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\AlessandroSO\\Desktop\\aspnet\\ASPNET\\AspNetCoreTodo\\AspNetCoreTodo.csproj",
+      "projectUniqueName": "C:\\Users\\AlessandroSO\\Desktop\\ASP\\aspnet\\aspnetcoretodo\\AspNetCoreTodo.csproj",
       "projectName": "AspNetCoreTodo",
-      "projectPath": "C:\\Users\\AlessandroSO\\Desktop\\aspnet\\ASPNET\\AspNetCoreTodo\\AspNetCoreTodo.csproj",
+      "projectPath": "C:\\Users\\AlessandroSO\\Desktop\\ASP\\aspnet\\aspnetcoretodo\\AspNetCoreTodo.csproj",
       "packagesPath": "C:\\Users\\AlessandroSO\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\AlessandroSO\\Desktop\\aspnet\\ASPNET\\AspNetCoreTodo\\obj\\",
+      "outputPath": "C:\\Users\\AlessandroSO\\Desktop\\ASP\\aspnet\\aspnetcoretodo\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\AlessandroSO\\AppData\\Roaming\\NuGet\\NuGet.Config"

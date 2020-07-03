@@ -6,6 +6,7 @@ using AspNetCoreTodo.Data;
 using AspNetCoreTodo.Models;
 using Microsoft.EntityFrameworkCore;
 
+
 namespace AspNetCoreTodo.Services{
 
     public class TodoItemService : ITodoItemService
@@ -17,19 +18,15 @@ namespace AspNetCoreTodo.Services{
 
             _context = context;
         }
-    public async Task<TodoItem[]> GetIncompleteItemsAsync()
-        {
-
-            return await _context.Items.Where(x => x.IsDone == false).ToArrayAsync();
-        }
-
-    public async Task<bool> AddItemAsync(TodoItem newItem){
+   
+    public async Task<bool> AddItemAsync(TodoItem newItem,ApplicationUser user){
 
         Console.WriteLine ("entrei no AddItemAsync");
 
         newItem.Id = Guid.NewGuid();
+        newItem.UserId = user.Id;
         newItem.IsDone = false;
-        newItem.DueAt = DateTimeOffset.Now.AddDays(newItem.Dias);
+        newItem.DueAt = DateTimeOffset.Now.AddDays(newItem.Dias+0.00001);
 
         _context.Items.Add(newItem);
 
@@ -37,9 +34,16 @@ namespace AspNetCoreTodo.Services{
         return saveResult == 1;
     }
 
-    public async Task<bool> MarkDoneAsync(Guid id)
+     public async Task<TodoItem[]> GetIncompleteItemsAsync(ApplicationUser user)
+        {
+
+            return await _context.Items.Where(x => x.IsDone == false && x.UserId == user.Id).ToArrayAsync();
+        }
+
+    public async Task<bool> MarkDoneAsync(Guid id , ApplicationUser user)
     {
-        var item = await _context.Items.Where(x => x.Id == id).SingleOrDefaultAsync();
+        var item = await _context.Items.Where(x => x.Id == id && x.UserId == user.Id).SingleOrDefaultAsync();
+        
         if (item == null) 
         {
             return false;
