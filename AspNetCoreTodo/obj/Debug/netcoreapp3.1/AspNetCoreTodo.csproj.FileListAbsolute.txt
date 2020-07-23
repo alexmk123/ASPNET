@@ -423,3 +423,4 @@ C:\Users\AlessandroSO\Desktop\ASP\aspnet\aspnetcoretodo\obj\Debug\netcoreapp3.1\
 C:\Users\AlessandroSO\Desktop\ASP\aspnet\aspnetcoretodo\obj\Debug\netcoreapp3.1\staticwebassets\AspNetCoreTodo.StaticWebAssets.Manifest.cache
 C:\Users\AlessandroSO\Desktop\ASP\aspnet\aspnetcoretodo\obj\Debug\netcoreapp3.1\staticwebassets\AspNetCoreTodo.StaticWebAssets.xml
 C:\Users\AlessandroSO\Desktop\ASP\aspnet\aspnetcoretodo\obj\Debug\netcoreapp3.1\AspNetCoreTodo.genruntimeconfig.cache
+C:\Users\AlessandroSO\Desktop\Asp\ASPNET\AspNetCoreTodo\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_AdminActionsPartial.cshtml.g.cs

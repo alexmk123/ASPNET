@@ -34,13 +34,16 @@ namespace AspNetCoreTodo
                 options.UseSqlite(
                     Configuration.GetConnectionString("DefaultConnection")));
 
-           services.AddDefaultIdentity<ApplicationUser>(options => options.SignIn.RequireConfirmedAccount = true)
+            services.AddDefaultIdentity<ApplicationUser>(options => 
+           options.SignIn.RequireConfirmedAccount = true).AddRoles<IdentityRole>()
             .AddEntityFrameworkStores<ApplicationDbContext>();
-            //   services.AddIdentity<ApplicationUser, IdentityRole>()
-            //     .AddEntityFrameworkStores<ApplicationDbContext>()
-            //     .AddDefaultTokenProviders();
+            
 
-            services.AddControllersWithViews();
+            //    services.AddIdentity<ApplicationUser, IdentityRole>()
+            //       .AddEntityFrameworkStores<ApplicationDbContext>()
+            //       .AddDefaultTokenProviders();
+
+           services.AddControllersWithViews();
            services.AddRazorPages();
            services.AddMvc();
            services.AddScoped<ITodoItemService, TodoItemService>();

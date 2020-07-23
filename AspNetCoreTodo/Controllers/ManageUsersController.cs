@@ -33,5 +33,19 @@ namespace AspNetCoreTodo.Controllers
 
             return View(model);
         }
+        public async Task<IActionResult> DelUserAsync(ApplicationUser user)
+        {
+              var user2 = await _userManager.FindByIdAsync(user.Id);
+              await _userManager.DeleteAsync(user2);
+
+              if( user!=null)
+                 {
+                    Console.WriteLine("entrei no if user é true "+user2.Email);
+                    return RedirectToAction("Index");;
+                 }
+            Console.WriteLine("entrei no metodo");
+            return  RedirectToAction("Index");;
+        
+        }
     }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ITDJB/iSa90lMpO12ByXLe7chE/H0SRPqQoYA0dcfpYqqd9aTmBAe4yw9SJKBHOUgon05a2Xt0FpjSDAPMcHWw==",
+  "dgSpecHash": "nQsF4Lj4Gq2tt2WSZJU6bP9gV+6Ii1+07OB3KADM6qXw2xdidsOHWUFVzZxQyEjvJyhT+ohvhB6OJxdvoFo+uw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\AlessandroSO\\Desktop\\Asp\\ASPNET\\aspnetcoretodo\\AspNetCoreTodo.csproj",
+  "projectFilePath": "C:\\Users\\AlessandroSO\\Desktop\\Asp\\ASPNET\\AspNetCoreTodo\\AspNetCoreTodo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\AlessandroSO\\.nuget\\packages\\humanizer\\2.8.26\\humanizer.2.8.26.nupkg.sha512",
     "C:\\Users\\AlessandroSO\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

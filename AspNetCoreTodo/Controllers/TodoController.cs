@@ -10,7 +10,7 @@ using Microsoft.AspNetCore.Identity;
 
     namespace AspNetCoreTodo.Controllers
     {   
-       // [Authorize]
+       [Authorize]
         public class TodoController : Controller
         {
             private readonly ITodoItemService _todoItemService;
